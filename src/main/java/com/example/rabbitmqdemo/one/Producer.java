@@ -22,11 +22,11 @@ public class Producer {
         //创建一个连接工厂
         ConnectionFactory factory = new ConnectionFactory();
         //工厂IP 连接RubbitMQ的队列
-        factory.setHost("112.124.6.200");
+        factory.setHost("192.168.0.1");
         //用户名
         factory.setUsername("admin");
         //密码
-        factory.setPassword("123");
+        factory.setPassword("admin");
         //创建连接
         Connection connection = factory.newConnection();
         //获取信道
